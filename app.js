@@ -33,7 +33,7 @@ function actualizarListaAmigos() {
 }
 
 function sortearAmigo() {
-    let resultado = document.getElementById("resultado");
+    let resultado = document.getElementById("resultado"); 
     resultado.innerHTML = "";
     if (amigos.length > 0) {
         let numeroAleatorio = Math.floor(Math.random() * amigos.length);
